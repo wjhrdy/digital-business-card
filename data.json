@@ -6,117 +6,65 @@ var obj =
 	*/
 	"emailchar": "ⓐ",
 	
-	"ganalytics": "UA-629709-5",
+	"ganalytics": "UA-148987287-2",
 	
 	"name": {
-		"first": "Avi",
-		"last": "Alkalay",
+		"first": "Willy",
+		"last": "Hardy",
 	},
-	"title": "Full stack web & mobile solutions architect, Cloud & DevOps Advisor",
-	"company": "IBM",
-	"department": "Cloud • Agile • Mobile • User Engagement",
+	"title": "Data Scientist",
+	"company": "Redhat",
+	"department": "Global Deal Desk",
 
 	"columns": {
-		"1": ["phone", "publications", "address","mail"],
+		"1": ["phone", "address","mail"],
 		"2": ["social", "",            "",        "other", "qrcode"]
 	},
 	
 	"section": {
 		"phone": [
 			{
-				"value": "+55 (11) 99659-9059",
+				"value": "+1919 4370042",
 				"label": "mobile",
 				"microformatTag": "mobile",
 				"vcfTag": "mobile" 
-			},
-			{
-				"value": "+55 (11) 2132-2327",
-				"label": "work"
-			},
-			{
-				"value": "avixⓐbr.ibm.com",
-				"label": "facetime"
-			},
-			{
-				"value": "avibrazilⓐgmail.com",
-				"label": "hangouts"
-			},
-			{
-				"value": "avibrazil",
-				"label": "skype"
-			},
-			{
-				"value": "avixⓐibm.webex.com",
-				"label": "SIP"
-			},
-			{
-				"value": "ibm.webex.com/meet/avix",
-				"label": "conference"
 			}
 		],
 
 		"mail": [
 			{
-				"value": "avixⓐbr.ibm.com",
-				"label": "work"
-			},
-			{
-				"value": "aviⓐunix.sh",
+				"value": "wjhrdy@pm.me",
 				"label": "personal"
-			},
+			}
 		],
 		
 		"social": [
 			{
-				"value": "avibrazil",
+				"value": "wjhrdy",
 				"label": "linkedin"
 			},
 			{
-				"value": "avibrazil",
+				"value": "wjhrdy",
 				"label": "facebook"
 			},
 			{
-				"value": "avibrazil",
+				"value": "wjhrdy",
 				"label": "github"
-			}
-		],
-		
-		"publications": [
-			{
-				"value": "Avi.Alkalay.net",
-				"label": "blog",
-				"protocol": "https"
-			},
-			{
-				"value": "fb.com/AviOnInformationTechnology",
-				"label": "facebook",
-				"protocol": "https"
-			},
-			{
-				"value": "Avi.Alkalay.net/bio",
-				"label": "minibio",
-				"protocol": "https"
 			}
 		],
 		
 		"address": [
 			{
 				"label": "work",
-				"street": "Tutóia 1157",
-				"city": "São Paulo",
-				"state": "São Paulo",
-				"country": "Brazil",
-				"zip": "04007-900",
-				"geo": "-23.579975,-46.649241"
+				"street": "Redhat",
+				"city": "Raleigh",
+				"state": "NC",
+				"country": "USA",
+				"zip": "27601",
+				"geo": "35.7753406,-78.6379293"
 			}
 		],
 		
-		"other": [
-			{
-				"label": "Bitcoin",
-				"value": "12c8eL6HVeNgXPf8dyoymgVahJWqgnc4Gk"
-			}
-		],
 		
 		"qrcode": [
 			{
