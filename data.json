@@ -24,7 +24,7 @@ var obj =
 	"section": {
 		"phone": [
 			{
-				"value": "+1919 4370042",
+				"value": "+19194370042",
 				"label": "mobile",
 				"microformatTag": "mobile",
 				"vcfTag": "mobile" 
@@ -40,7 +40,7 @@ var obj =
 		
 		"social": [
 			{
-				"value": "wjhrdy",
+				"value": "willyhardy",
 				"label": "linkedin"
 			},
 			{
@@ -64,12 +64,5 @@ var obj =
 				"geo": "35.7753406,-78.6379293"
 			}
 		],
-		
-		
-		"qrcode": [
-			{
-				"label": "Scan with iPhone camera, Wallet or any QR reader"
-			}
-		]
 	}	
 };
