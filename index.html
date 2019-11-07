@@ -27,15 +27,13 @@ Made in Brazil
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     
     <!-- A generic title, will be substituted by Javascript below -->
-    <title>Digital Business Card</title>
+    <title>Willy Hardy Business Card</title>
     
     <!-- Be friendly with social media, specialy Facebook... -->
     <!-- These meta tags must be hard coded (no JQuery) because they are read by Facebook -->
 	<meta property="og:type"          content="profile" />
     <meta property="og:title"         content="Digital Business Card for Avi Alkalay" />
     <meta property="og:description"   content="Avi Alkalay • Full stack web & mobile solutions architect, Cloud & DevOps Advisor • IBM" />
-    <meta property="og:image"         content="https://Avi.Alkalay.net/card/walletcard.png" />
-    <link rel="image_src"             href="https://Avi.Alkalay.net/card/walletcard.png" />
 
 	<link rel="profile" href="http://microformats.org/profile/hcard">
 	<link rel="software" href="https://github.com/avibrazil/digital-business-card">
@@ -225,9 +223,6 @@ Made in Brazil
 					<div class="col-xs-6 col-sm-3 column" id="address-book-badge">
 						<p class="text-center"><a href="vcard.vcf"><img src="resources/img/add-to-addressbook-badge.png" alt="Add to address book"/></a></p>
 					</div>
-					<div class="col-xs-6 col-sm-3 col-sm-offset-6 column" id="wallet-badge">
-						<p class="text-center"><a href="passbook.pkpass"><img src="resources/img/add-to-wallet-badge.png" alt="Add to Wallet"/></a></p>
-					</div>
 				</div>
 			</div>
 
@@ -254,24 +249,7 @@ Made in Brazil
   
   
   
-  <script><!--
-  		function toggleWalletBadge() {
-  			var badgePass="resources/img/add-to-wallet-badge.png";
-  			var linkPass="passbook.pkpass";
-
-  			var badgeApp="resources/img/get-pass2u-badge.png";
-  			var linkApp="https://play.google.com/store/apps/details?id=com.passesalliance.wallet";
-  			
-  			if (/(android)/i.test(navigator.userAgent)) {
-  				$("#wallet-badge img").each(function() {
-  					$(this).fadeTo(3000, 1, "linear", function() {
-						$(this).attr("src",badgeApp);
-						$("#wallet-badge a"  ).each(function() {$(this).attr("href",linkApp)});  				
-					})
-				});
-			}
-  		}
-  		
+  <script><!--  		
   		function checkQRCode() {
   			var i = document.createElement('img');
 
