@@ -249,7 +249,24 @@ Made in Brazil
   
   
   
-  <script><!--  		
+  <script><!--
+  		function toggleWalletBadge() {
+  			var badgePass="resources/img/add-to-wallet-badge.png";
+  			var linkPass="passbook.pkpass";
+
+  			var badgeApp="resources/img/get-pass2u-badge.png";
+  			var linkApp="https://play.google.com/store/apps/details?id=com.passesalliance.wallet";
+  			
+  			if (/(android)/i.test(navigator.userAgent)) {
+  				$("#wallet-badge img").each(function() {
+  					$(this).fadeTo(3000, 1, "linear", function() {
+						$(this).attr("src",badgeApp);
+						$("#wallet-badge a"  ).each(function() {$(this).attr("href",linkApp)});  				
+					})
+				});
+			}
+  		}
+  		
   		function checkQRCode() {
   			var i = document.createElement('img');
 
