@@ -12,9 +12,9 @@ var obj =
 		"first": "Willy",
 		"last": "Hardy",
 	},
-	"title": "Data Scientist",
-	"company": "Redhat",
-	"department": "Global Deal Desk",
+	"title": "Data Person",
+	"company": "Red Hat",
+	"department": "Data and AI",
 
 	"columns": {
 		"1": ["phone", "address","mail"],
@@ -33,7 +33,7 @@ var obj =
 
 		"mail": [
 			{
-				"value": "wjhrdy@pm.me",
+				"value": "ngp56wwq@mailer.me",
 				"label": "personal"
 			}
 		],
@@ -56,7 +56,7 @@ var obj =
 		"address": [
 			{
 				"label": "work",
-				"street": "Redhat",
+				"street": "Red Hat",
 				"city": "Raleigh",
 				"state": "NC",
 				"country": "USA",
